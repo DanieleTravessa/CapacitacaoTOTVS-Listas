@@ -15,7 +15,10 @@
 	"lastPrograms": [
 		{
 			"label": "u_antecessor"
+		},
+		{
+			"label": "u_rCriaPasta"
 		}
 	],
-	"lastProgramExecuted": "u_antecessor"
+	"lastProgramExecuted": "u_rCriaPasta"
 }
