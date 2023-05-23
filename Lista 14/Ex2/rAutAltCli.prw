@@ -9,13 +9,13 @@
     @since 08/05/2023
     @version version    
     /*/
-Function rAutAltCli()
+User Function rAutAltCli()
 
     Local aDados        := {}
     Local nOper         := 4
     Private lMsErroAuto := .F.
 
-    PREPARE ENVIRONMENT EMPRESA '99' FILIAL '01' MODULTO 'FAT'
+    PREPARE ENVIRONMENT EMPRESA '99' FILIAL '01' MODULO 'FAT'
 
     aAdd(aDados, {'A1_COD', 'RA0001'    , /**/})
     aAdd(aDados, {'A1_END', 'Rua Rotina', /**/})

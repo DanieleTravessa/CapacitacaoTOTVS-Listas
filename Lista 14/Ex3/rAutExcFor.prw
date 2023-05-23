@@ -7,7 +7,7 @@
     @author Daniele Travessa
     @since 08/05/2023    
     /*/
-Function rAutExcFor()
+User Function rAutExcFor()
     
     Local aDados        := {}
     Local nOper         := 5

@@ -70,7 +70,7 @@ Static Function rAutImpCSV()
     aAdd(aDados, {'B1_PRV1'  , nB1prv        , /**/})
     aAdd(aDados, {'B1_LOCPAD', '01'          , /**/})
               
-    MsExecAuto({|x, y| MATA010(x, y), aDados, nOper})
+    MsExecAuto({|x, y| MATA010(x, y)}, aDados, nOper)
 
     If lMsErroAuto
         MostraErro()

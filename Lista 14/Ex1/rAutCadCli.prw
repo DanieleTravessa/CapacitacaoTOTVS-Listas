@@ -9,7 +9,7 @@
     @version version    
     @see (links_or_references)
     /*/
-Function rAutCadCli()
+User Function rAutCadCli()
 
     Local aDados := {}
     Local nOper := 3
